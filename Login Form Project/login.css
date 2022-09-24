@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    margin: -20px 0 50px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    background: rgb(246, 245, 247);
+}
+
+.panel-box {
+    display: flex;
+    overflow: hidden;
+
+
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.sign-in-container {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+
+
+    padding: 0 50px;
+}
+
+.sign-in-container>h1 {
+    font-size: 32px;
+    font-weight: bold;
+
+    margin: 0;
+    border: none;
+}
+
+.sign-in-container>span {
+    font-size: 12px;
+}
+
+.sign-in-container>input {
+    width: 100%;
+
+    margin: 8px 0;
+    padding: 12px 15px;
+
+    background: rgba(128, 128, 128, 0.15);
+    border: none;
+}
+
+.sign-in-container>a {
+    font-size: 14px;
+
+    margin: 15px 0;
+}
+
+.sign-in-container>a:hover {
+    cursor: pointer;
+}
+
+button {
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+
+    letter-spacing: 1px;
+
+    padding: 12px 45px;
+
+    border-radius: 24px;
+    border: 1px solid white;
+
+    background: rgb(255, 75, 43);
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+
+    width: 50%;
+
+    color: white;
+    background: rgb(255, 66, 98);
+
+    padding: 0 40px;
+}
+
+.sign-up-container>h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.sign-up-container>p {
+    margin: 20px 0 30px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.sign-up-container>button {
+    background: rgb(255, 67, 96);
+}
+
+footer {
+    text-align: center;
+    min-width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+
+
+    background: rgb(34, 34, 34);
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
